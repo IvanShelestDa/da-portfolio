@@ -31,12 +31,11 @@
 3. Графіки збережуться в `reports/images/`.
 
 ### Структура
-da-portfolio/
-├─ data/
-│  ├─ raw/ **вихідні дані (CSV, XLSX тощо)**
-│  └─ processed/ **оброблені файли**
-├─ notebooks/ **Jupyter-ноутбуки для аналізу**
-├─ src/ **Python-скрипти**
-├─ reports/
-│  └─ images/ **графіки, скріни**
-└─ dashboards/ **лінки чи експорт дашбордів**
+- **data/**
+  - **raw/** — вихідні дані (CSV, XLSX тощо)
+  - **processed/** — оброблені файли
+- **notebooks/** — Jupyter-ноутбуки для аналізу
+- **src/** — Python-скрипти
+- **reports/**
+  - **images/** — графіки, скріни
+- **dashboards/** — лінки чи експорт дашбордів
