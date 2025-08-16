@@ -20,4 +20,5 @@ data/raw/*
 reports/*.html
 reports/*.pdf
 reports/images/*
+!reports/images/*.png
 !reports/images/.gitkeep
